@@ -6,49 +6,28 @@ Aluno: Yago Kauã Rossa Rocha
 Disciplina: Programação orientada a Objetos  
 Professor: Nelson Bellincanta
 ```
-import java.util.Scanner;
+import java.util.Scanner; //importando o metodo Scanner
 
-/**
- * atvd01
- */
-public class atvd01 { // criando a classe principal 
-    
-    static Scanner LER = new Scanner(System.in); // criando metodo e baixando Scanner
-    public static void main(String[] args) { //criando o metodo principal
-        
-        float num1 = 0f; // criando variavel para o primeiro numero
-        float num2 = 0f; // criando variavel para o segundo numero
-        float calcular = 0f; // criando variavel para o calculo 
-        num1 = lerNum1(num1); // chamando o metodo "lerNum1" e retornando o valor para a variavel "num1"
-        num2 = lerNum2(num2); // chamando o metodo "lerNum2" e retornando o valor para a variavel "num2"
-        calcular = fazerCalculo(num1, num2, calcular); // chamando o metodo "fazerCalculo" e retornando o valor para a variavel "calcular"
-        imprimir(num1, num2, calcular); // chamando o metodo para imprimir resultado
+public class atvd02{ //criando a classe principal 
+
+    public static void main(String [] args){ //criando o metodo principal
+
+        int num1 =0; //criando a variavel num1
+
+        Scanner ent = new Scanner(System.in); // criando metodo e baixando Scanner
+
+        System.out.print("Informe dois numeros inteiro: "); // pedindo ao usuario que informe 2 numeros inteiros
+        int num2 = ent.nextInt(); // recebendo num2
+        int num3 = ent.nextInt(); // recebendo num3
+
+        num1 = calc(num1, num2, num3); //chamando o metodo para calcular e retornando como valor para a variavel num1
+
+        System.out.printf("%n %d * %d = %d %n", num2, num3, num1); //printando os valores
     }
-        public static float lerNum1(float num1){ // criando primeiro metodo
-            System.out.println("Digite o primeiro numero: "); // pedindo ao usuario o primeiro numero
-            num1 = LER.nextInt(); // dando o valor de entrada ao usuario
-            
-        return num1; //retornando ao main o numero1
-        }
+    public static int calc(int num1, int num2, int num3){ //criando um metodo para calcular
+        num1 = (num2*num3); //calculando
+        return num1; //retornando o num1
+    }
     
-        public static float lerNum2(float num2){ // criando segundo metodo
-            System.out.println("Digite o segundo numero: "); //pedindo ao usuario o segundo numero
-            num2 = LER.nextInt(); // dando o valor de entrada ao usuario
-            
-        return num2; //retornando ao main o numero2
-        }
-    
-        public static float fazerCalculo(float num1, float num2, float calcular){ // criando terceiro metodo
-            calcular = num1 + num2; // fazendo calculo num1 + num2
-        return calcular; //retornando ao main o resultado do calculo
-        }
-        
-        public static void imprimir(float num1, float num2, float calcular){ // criando quarto metodo
-            System.out.printf("O resultado da soma é: %n%.2f + %.2f = %.2f", num1, num2, calcular); //printando para o usuario a conta e o resultado usando printf
-
-
-
-        }
-
 }
 ```

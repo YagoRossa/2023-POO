@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; //importando o metodo Scanner
 
 /**
  * atvd01
