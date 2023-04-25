@@ -1,11 +1,3 @@
-# Atividade Teste
-
-Classe impressão de texto: "Main"  
-IFPR - Campus Cascavel  
-Aluno: Yago Kauã Rossa Rocha
-Disciplina: Programação orientada a Objetos  
-Professor: Nelson Bellincanta
-```
 import javax.swing.JOptionPane; //Importando o metodo JOptionPane da classe javax.swing
 
 public class atvd03 { //criando a classe principal
@@ -32,4 +24,3 @@ public class atvd03 { //criando a classe principal
 
     }
 }
-```
