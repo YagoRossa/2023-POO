@@ -1,11 +1,3 @@
-# Atividade Teste
-
-Classe impressão de texto: "Main"  
-IFPR - Campus Cascavel  
-Aluno: Yago Kauã Rossa Rocha
-Disciplina: Programação orientada a Objetos  
-Professor: Nelson Bellincanta
-```
 import java.util.Scanner;
 
 public class atvd06{ //criando a principal classe
@@ -40,4 +32,3 @@ public class atvd06{ //criando a principal classe
 
      }
 }
-```

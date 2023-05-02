@@ -1,11 +1,3 @@
-# Atividade Teste
-
-Classe impressão de texto: "Main"  
-IFPR - Campus Cascavel  
-Aluno: Yago Kauã Rossa Rocha
-Disciplina: Programação orientada a Objetos  
-Professor: Nelson Bellincanta
-```
 public class atvd04{ //criando a principal classe
     public static void main(String [] args){ //criando o principal metodo
 
@@ -18,4 +10,3 @@ public class atvd04{ //criando a principal classe
         System.out.println("Total de gastos no Trimestre: " + gastosTrimestre); //printando resultado
     }
 }
-```
